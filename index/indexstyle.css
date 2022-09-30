@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&display=swap');
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0%;
+    background-image: url("https://www.quirkybyte.com/wp-content/uploads/2016/10/jl-1.jpg");
+    background-attachment: fixed;
+    color: rgba(100%, 100%, 100%, 0.9);
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    width: 100%;
+    animation: slide 1s 1;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-30px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.head {
+    width: 100%;
+    font-size: 40px;
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+    color: white;
+}
+
+.desc {
+    width: 100%;
+    padding: 40px 0px 60px 0px;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.wallpaper {
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    margin: 8% 0%;
+}
+
+.wallpaper:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.demo {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.wallpaper:hover .demo {
+    opacity: 1;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* slideshow */
+#container {
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    overflow: hidden;
+    border: 5px groove #ffffff;
+    border-radius: 10px;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    animation: slide1 40s infinite;
+}
+
+@keyframes slide1 {
+    0% {
+        transform: translateX(0);
+    }
+
+    10% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-100%);
+    }
+
+    30% {
+        transform: translateX(-200%);
+    }
+
+    40% {
+        transform: translateX(-300%);
+    }
+
+    50% {
+        transform: translateX(-400%);
+    }
+
+    60% {
+        transform: translateX(-500%);
+    }
+
+    70% {
+        transform: translateX(-600%);
+    }
+
+    80% {
+        transform: translateX(-700%);
+    }
+
+    90% {
+        transform: translateX(-800%);
+    }
+
+    100% {
+        transform: translateX(-900%);
+    }
+}
+
+.wrapper>img {
+    width: 100%;
+}
+
+.preview {
+    text-decoration: none;
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.preview:hover {
+    background-color: black;
+    color: lightgray;
+}
+
+ul {
+    text-align: left;
+    list-style-type: none;
+}
+
+li {
+    font-weight: bold;
+    transition: 0.5s;
+    padding: 14px 17px 17px 17px;
+    display: inline;
+    overflow: hidden;
+}
+
+li:hover {
+    background-color: rgb(209, 209, 209);
+    color: black;
+}
+
+li:hover a {
+    color: black;
+}
+
+footer {
+    width: 100%;
+}
+
+footer>a {
+    padding: 0px 10px 0px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.section1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section2 {
+    flex: 60%;
+    border-right: 2px solid white;
+    word-spacing: 5px;
+    padding-right: 20px;
+}
+
+.section3 {
+    width: 40%;
+}
+
+@media all and (max-width:400px) {
+    .head {
+        font-size: 30px;
+    }
+
+    .section1 {
+        width: 100%;
+        display: block;
+    }
+
+    .section2 {
+        width: 100%;
+        border: none;
+        padding: 0%;
+    }
+
+    .section3 {
+        width: 100%;
+    }
+}

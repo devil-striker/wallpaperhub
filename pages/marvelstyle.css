@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&display=swap');
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.head {
+    width: 100%;
+    font-size: 40px;
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+    color: white;
+}
+
+ul {
+    text-align: left;
+    list-style-type: none;
+}
+
+li {
+    font-weight: bold;
+    transition: 0.5s;
+    padding: 14px 17px 17px 17px;
+    display: inline;
+    overflow: hidden;
+}
+
+li:hover {
+    background-color: rgb(209, 209, 209);
+    color: black;
+}
+
+li:hover a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    margin: 0%;
+    background-image: url("https://wallpapercave.com/wp/wp5908094.png");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    animation: slide 1s 1;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-30px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+hr {
+    border-color: rgb(88, 88, 88);
+}
+
+section {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+#main {
+    width: 60%;
+    margin: 5%;
+}
+
+#container {
+    width: 100%;
+    padding: 2% 0;
+    text-align: center;
+}
+
+div img {
+    width: 50%;
+    transition: 0.5s;
+    border: 7px ridge darkred;
+}
+
+div img:hover {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.7);
+    transform: scale(1.05, 1.05);
+}
+
+footer {
+    padding-bottom: 2%;
+}
+
+footer img {
+    margin: 0 1%;
+}
