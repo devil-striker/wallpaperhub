@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&display=swap');
 
-* {
+*{
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -205,7 +205,32 @@ a {
     .head {
         font-size: 30px;
     }
+    #forphone{
+        border-top:  5px groove dimgray;
+        padding-top: 10px;
+        width: 100%;
+        display: flex;
+    }
+    #forphone1{
+        width: 30%;
+    }
+    .desc{
+        width: 70%;
 
+        padding: 0% 5% 0% 5%;
+        font-size: small;
+    }
+    ul{
+        margin: 0%;
+        width: 100%;
+        display: inline;
+    }
+    li{
+        margin: 0%;
+        width: 100%;
+        display: block;
+        overflow: visible;
+    }
     .section1 {
         width: 100%;
         display: block;
@@ -214,7 +239,7 @@ a {
     .section2 {
         width: 100%;
         border: none;
-        padding: 0%;
+        padding: 5% 0% 0% 0%;
     }
 
     .section3 {
