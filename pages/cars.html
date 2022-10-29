@@ -1,9 +1,152 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&display=swap');
+
+        * {
+            box-sizing: border-box;
+            color: white;
+        }
+
+        body {
+            margin: 0%;
+            font-family: 'Kanit', sans-serif;
+        }
+
+        #bkvideo {
+            width: 100%;
+            position: fixed;
+        }
+
+        .head {
+            position: relative;
+            padding: 1rem;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 2.5rem;
+            text-decoration: underline;
+        }
+
+        .navbar {
+            position: relative;
+            border: 5px groove dimgray;
+            width: 100%;
+            background-color: rgba(31, 31, 31, 0.85);
+        }
+
+        .section {
+            position: relative;
+        }
+
+        ul {
+            text-align: left;
+            list-style-type: none;
+        }
+
+        li {
+            font-weight: bold;
+            transition: 0.5s;
+            padding: 14px 17px 17px 17px;
+            display: inline;
+            overflow: hidden;
+        }
+
+        li a {
+            text-decoration: none;
+        }
+
+        li:hover {
+            background-color: rgb(209, 209, 209);
+            color: black;
+        }
+
+        li:hover a {
+            color: black;
+        }
+
+        .container {
+            margin: 1%;
+            background: rgba(0, 0, 0, 0.5);
+            float: left;
+            width: 30%;
+            height: 20rem;
+            overflow: hidden;
+            border: 2px solid red;
+        }
+
+        div img {
+            height: 100%;
+            min-width: 100%;
+        }
+
+        .footer {
+            margin-top: 44rem;
+            padding: 1%;
+            font-size: 1.2rem;
+            position: relative;
+            border-top: 4px ridge gray;
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
-    <b style="font-size: 100px;">ERROR.404 <br>[Cars Page is not yet designed]</b>
+    <video autoplay muted loop id="bkvideo">
+        <source src="../videos/videoplayback.mp4" type="video/mp4">
+    </video>
+    <div class="head">
+        Welcome to WallpaperHub
+    </div>
+    <div class="navbar">
+        <ul>
+            <li><a href="https://devil-striker.github.io/wallpaperhub/index.html">Home</a></li>
+            <li><a href="#icons">Contact us</a></li>
+        </ul>
+    </div>
+    <section class="section">
+        <div class="container">
+            <img src="https://getwallpapers.com/wallpaper/full/d/3/8/306587.jpg"
+                onclick="window.location='https://getwallpapers.com/wallpaper/full/d/3/8/306587.jpg'">
+        </div>
+        <div class="container">
+            <img src="https://wallpaperaccess.com/full/867859.jpg"
+                onclick="window.location='https://wallpaperaccess.com/full/867859.jpg'">
+        </div>
+        <div class="container">
+            <img src="https://images.hdqwalls.com/download/ford-mustang-gt-8k-1b-3840x2160.jpg"
+                onclick="window.location='https://images.hdqwalls.com/download/ford-mustang-gt-8k-1b-3840x2160.jpg'">
+        </div>
+        <div class="container">
+            <img src="https://images.hdqwalls.com/download/nissan-gtr-r34-x8-1920x1080.jpg"
+                onclick="window.location='https://images.hdqwalls.com/download/nissan-gtr-r34-x8-1920x1080.jpg'">
+        </div>
+        <div class="container">
+            <img src="https://images.hdqwalls.com/download/nissan-gtr-2020-ub-1920x1080.jpg"
+                onclick="window.location='https://images.hdqwalls.com/download/nissan-gtr-2020-ub-1920x1080.jpg'">
+        </div>
+        <div class="container">
+            <img src="https://wallpapertag.com/wallpaper/full/e/e/5/52196-8k-wallpaper-4106x2475-for-ipad-2.jpg"
+                onclick="window.location='https://wallpapertag.com/wallpaper/full/e/e/5/52196-8k-wallpaper-4106x2475-for-ipad-2.jpg'">
+        </div>
+    </section>
+    <section class="footer">
+        <img src="https://linkshortner.net/PENoB" alt="" width="50px"
+            onclick="window.location='https://www.instagram.com/d_rsh_n._/'">
+        <img src="https://logodix.com/logo/1288656.png" alt="" width="50px"
+            onclick="window.location='https://linkedin.com/in/darshan-dinesh-m-p88ab11219'">
+        <img src="https://icon-library.com/images/white-discord-icon/white-discord-icon-1.jpg" alt="" width="50px"
+            onclick="window.location='https://www.instagram.com/d_rsh_n._/'">
+        <br>
+            WallpaperHub brings you thousands of high quality
+        images to be used as wallpaper for your computer, tablet<br>
+        or phone. Conveniently oragnized in many category,
+        you'll find images of many styles and topics.<br>
+        WallpaperHub © 2022 - Wallpapers are for
+        personal use only.
+    </section>
 </body>
+
 </html>
