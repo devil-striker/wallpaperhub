@@ -89,3 +89,8 @@ div img {
     border-top: 4px ridge gray;
     text-align: center;
 }
+
+.footer img{
+    padding: 0% 1%;
+    width: 70px;
+}
