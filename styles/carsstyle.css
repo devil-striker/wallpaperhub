@@ -18,10 +18,10 @@ body {
 
 .head {
     position: relative;
-    padding: 1rem;
+    padding: 3rem;
     text-align: center;
     font-weight: bolder;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     text-decoration: underline;
 }
 
@@ -34,6 +34,10 @@ body {
 
 .section {
     position: relative;
+    margin-left:4rem;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1.3rem;
 }
 
 ul {
@@ -64,6 +68,7 @@ li:hover a {
 
 .container {
     margin: 1%;
+    margin-top: 3%;
     background: rgba(0, 0, 0, 0.5);
     float: left;
     width: 30%;
@@ -83,7 +88,7 @@ div img {
 }
 
 .footer {
-    margin-top: 44rem;
+    margin-top: 50rem;
     padding: 1%;
     font-size: 1.2rem;
     position: relative;
